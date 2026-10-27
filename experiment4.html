@@ -7,19 +7,19 @@
 </head>
 <body>
     <fieldset>
-    <legend><h2>Hotel Room Booking Form</h2></legend>
+      <center><h1>Hotel Room Booking Form</h1></center>
 
 
         <label for="name">Full Name:</label>
-        <input type="text" name="name" id="name" required>
+        <input type="text" name="name" id="name" placeholder="Enter your full name" required>
         <br><br>
 
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
         <br><br>
 
         <label for="phone">Phone:</label>
-        <input type="tel" name="phone" id="phone" required>
+        <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
         <br><br>
 
         <label for="checkin">Check-in Date:</label>
@@ -32,9 +32,9 @@
 
         <label for="room">Room Type:</label>
         <select name="room" id="room">
-            <option value="single">Single Room</option>
-            <option value="double">Double Room</option>
-            <option value="suite">Suite</option>
+            <option>Single Room</option>
+            <option>Double Room</option>
+            <option>Suite</option>
         </select>
         <br><br>
 
@@ -47,8 +47,12 @@
         <textarea name="requests" id="requests" rows="3" cols="35"></textarea>
         <br><br>
 
-        <input type="submit" value="Book Now">
-        <input type="reset" value="Reset Form">
+        <button type="submit" value="Book Now">
+            Book Now
+        </button>
+        <button type="reset" value="Reset Form">
+            Reset Form
+        </button>
 
     </form>
 </fieldset>
